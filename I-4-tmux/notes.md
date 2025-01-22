@@ -1,5 +1,7 @@
 **TMUX**
-
+**Install**
+- install tmux
+  - sudo apt install tmux
 
 
 **Sources**
