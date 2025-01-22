@@ -33,7 +33,14 @@
    
 **Commands and keybindings**
 - create window: prefix + c
-- 
+  - also sets as current active window for session
+- run tmux: tmux
+- source tmux config: tmux source YOUR_PATH <- mine is: ~/.config/tmux/tmux.conf
+- change window
+  - next: prefix n
+  - previous: prefix p
+  - direct: prefix number (ex: prefix 0)
+- swap window: prefix :swap-window -s 2 -t 1 (idk what this does)
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
