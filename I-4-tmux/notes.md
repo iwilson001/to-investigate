@@ -1,4 +1,5 @@
-**TMUX**
+### TMUX
+
 **Install**
 - install tmux
   - sudo apt install tmux
@@ -10,6 +11,29 @@
   - $HOME/.tmux.conf (OLD)
   - $XDG_CONFIG_HOME/tmux/tmux.conf (MODERN) <- this didn't exist for me
     - this usually equates to $HOME/.config/tmux/tmux.conf
+  - touch ~/.config/tmux/tmux.conf
+   
+**Keywords**
+- Session
+  - top-most layer of tmux
+  - collection of 1+ windows managed as a single unit
+  - can have n sessions at any time but typically only attach to one
+  - each session has an active window
+- Window
+  - container to 1+ panes
+  - conceptually like tabs in browsers
+  - each window as one active pane and you can switch between panes
+  - shown at bottom of screen and active is marked with '*'
+- Pane
+  - splits in the window, represent individual terminal session
+  - only one active pane at a time
+- prefix
+  - how you enter commands into tmux
+  - default: ctrl-b
+   
+**Commands and keybindings**
+- create window: prefix + c
+- 
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
