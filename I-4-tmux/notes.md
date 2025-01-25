@@ -41,6 +41,39 @@
   - previous: prefix p
   - direct: prefix number (ex: prefix 0)
 - swap window: prefix :swap-window -s 2 -t 1 (idk what this does)
+- close window:
+  - option 1: kill all panes inside
+  - option 2: prefix &
+- managing panes
+  - split a window
+    - horizontally: prefix %
+    - vertically: prefix "
+  - navigating between panes: prefix arrowkeys (up, down, left, right)
+  - swap panes around: prefix { and prefix }
+  - toggle pane numbers: prefix q
+    - then press the subsequent number to go to said pane
+  - zoom into a pane: prefix z
+  - turn pane into a window: prefix !
+  - close a pane: prefix x
+- sessions
+  - created using `tmux` command while not attached to a session
+  - create session with name: `tmux new -s my-session`
+  - from inside tmux, new session can be created using `:new` command
+  - list active sessions
+    - outside of tmux: `tmux ls`
+    - inside of tmux: prefix s
+  - preview windows for each session from inside tmux: prefix w
+  - attach to session
+    - attach to most recent: `tmux attach`
+    - attach to named session: `tmux attach -t my-session`
+
+**Customizing tmux**
+- NOTE: package manager must be installed first!
+- vim tmux navigator
+  - provides vim keybindings for tmux
+    - move around tmux with <C-h/j/k/l>
+    - 
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
+- [tmuxcheatsheet.com](url)
