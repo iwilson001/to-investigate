@@ -66,13 +66,15 @@
   - attach to session
     - attach to most recent: `tmux attach`
     - attach to named session: `tmux attach -t my-session`
+- install plugin after editing tmux.conf: prefix I
+  - must also source tmux.conf again
 
 **Customizing tmux**
 - NOTE: package manager must be installed first!
 - vim tmux navigator
   - provides vim keybindings for tmux
     - move around tmux with <C-h/j/k/l>
-    - 
+
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
