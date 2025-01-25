@@ -78,6 +78,12 @@
 
 **Mouse support**
 - added to tmux.conf
+- allows clicking to jump winows/panes
+- allows scrolling of terminal history
+
+**Window numbering**
+- default window numbering starts with 0, this stinks for navigation
+- changed in tmux.conf
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
