@@ -74,7 +74,10 @@
 - vim tmux navigator
   - provides vim keybindings for tmux
     - move around tmux with <C-h/j/k/l>
+- also can add themes to change color scheme!
 
+**Mouse support**
+- added to tmux.conf
 
 **Sources**
 - [https://www.youtube.com/watch?v=DzNmUNvnB04](url)
