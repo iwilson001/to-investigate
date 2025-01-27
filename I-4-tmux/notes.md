@@ -66,6 +66,7 @@
   - attach to session
     - attach to most recent: `tmux attach`
     - attach to named session: `tmux attach -t my-session`
+  - detach from session: `prefix d`
 - install plugin after editing tmux.conf: prefix I
   - must also source tmux.conf again
 
