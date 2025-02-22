@@ -5,6 +5,8 @@
   - sudo apt install tmux
 - install tpm (tmux package manager)
   - git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins
+- install plugins
+  - enter tmux and then run `prefix I`
 
 **Create config**
 - create your tmux.conf file in:
